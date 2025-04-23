@@ -1,37 +1,32 @@
+
 body {
-  font-family: 'Georgia', serif;
-  background-color: #f8f5f2;
-  color: #3e2c2c;
-  margin: 0;
-  padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fdf8f4;
+    color: #3a1c1c;
+    margin: 0;
+    padding: 0;
 }
 header {
-  background-color: #800000;
-  color: white;
-  padding: 20px;
-  text-align: center;
+    background-color: #8B0000;
+    color: white;
+    padding: 1em;
+    text-align: center;
 }
 nav ul {
-  list-style: none;
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
-nav ul li {
-  display: inline;
-  margin: 0 10px;
-}
-nav ul li a {
-  color: white;
-  text-decoration: none;
+nav li {
+    display: inline;
+    margin-right: 15px;
 }
 main {
-  padding: 20px;
+    padding: 2em;
 }
 footer {
-  background-color: #800000;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
 }
