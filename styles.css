@@ -1,0 +1,30 @@
+
+body {
+  font-family: Georgia, serif;
+  background-color: #fffaf5;
+  color: #2c1b10;
+  margin: 0;
+}
+header {
+  background-color: #800000;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: #add8e6;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+footer {
+  background-color: #800000;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
