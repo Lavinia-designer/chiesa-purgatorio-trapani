@@ -1,34 +1,32 @@
 
 body {
-  font-family: 'Georgia', serif;
-  background-color: #fdfaf6;
-  color: #3a1a1a;
-  margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fdf8f4;
+    color: #3a1c1c;
+    margin: 0;
+    padding: 0;
 }
 header {
-  background-color: #800020;
-  color: white;
-  padding: 1rem;
+    background-color: #8B0000;
+    color: white;
+    padding: 1em;
+    text-align: center;
 }
 nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
+    list-style-type: none;
+    padding: 0;
 }
-nav ul li a {
-  color: white;
-  text-decoration: none;
+nav li {
+    display: inline;
+    margin-right: 15px;
 }
-section {
-  padding: 2rem;
-  border-bottom: 1px solid #ccc;
+main {
+    padding: 2em;
 }
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-}
-.gallery img {
-  width: 100%;
-  border-radius: 8px;
+footer {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
 }
